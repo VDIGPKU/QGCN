@@ -39,6 +39,11 @@ python src/eval_qmg.py --model checkpoint/path_to_QGCN_model.pth --GT --gtdata B
 ```
 More testing parameters please see the evaluation files.
 
+## Pre-trained models
+QCN model for grayscale images: [[Google Drive](https://drive.google.com/file/d/189WIiZgxrpPSTO-AnnnEtijwdpYx6Afb/view?usp=sharing)] [[Baidu](https://pan.baidu.com/s/19oYOTz7-mKAlslMySQEXgQ) (Code: u4hv)]
+
+QCN model for RGB images: [[Google Drive](https://drive.google.com/file/d/1egKn9tAsPHLVtj4SSTMyqVXE8g4xM53t/view?usp=sharing)] [[Baidu](https://pan.baidu.com/s/1rAOP4dsVnyF_EE0VI6nFyQ) (Code: 8w7p)]
+
 ## Results
 ![compare1](figs/compare1.png)
 A visual comparison of image artifacts removal results using different methods, with an emphasis to highlight that our method is able to handle global structure well. (a) the original image Sailing, (b) the JPEG-encoded image in 28.28 dB, with the quality factor of 10 imposed on the JPEG compression stage, (c) AR-CNN method [7] in 29.02 dB, (d) EDSR method [34] in 30.38 dB, (e) our QCN method in 30.62 dB, and (f) our QGCN method in 31.01 dB. Note that the annoying contours presented in the sky area in (b) almost completely disappear in (f). Also the overall color image quality presented in (f) is quite near to that of the ground truth in (a). This example demonstrates the effectiveness and advantage of introducing the proposed global network branch in our method.
