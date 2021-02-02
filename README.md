@@ -40,9 +40,9 @@ python src/eval_qmg.py --model checkpoint/path_to_QGCN_model.pth --GT --gtdata B
 More testing parameters please see the evaluation files.
 
 ## Pre-trained models
-QCN model for grayscale images: [[Google Drive](https://drive.google.com/file/d/189WIiZgxrpPSTO-AnnnEtijwdpYx6Afb/view?usp=sharing)] [[Baidu](https://pan.baidu.com/s/19oYOTz7-mKAlslMySQEXgQ) (Code: u4hv)]
+QCN model for grayscale images: [[Google Drive](https://drive.google.com/file/d/1Xb_fIWF2BkrycKMOipv41XeFYKPo3hUR/view?usp=sharingb)] [[Baidu](https://pan.baidu.com/s/19oYOTz7-mKAlslMySQEXgQ) (Code: u4hv)]
 
-QCN model for RGB images: [[Google Drive](https://drive.google.com/file/d/1egKn9tAsPHLVtj4SSTMyqVXE8g4xM53t/view?usp=sharing)] [[Baidu](https://pan.baidu.com/s/1rAOP4dsVnyF_EE0VI6nFyQ) (Code: 8w7p)]
+QCN model for RGB images: [[Google Drive](https://drive.google.com/file/d/1egKn9tAsPHLVtj4SSTMyqVXE8g4xM53t/view?usp=sharing)] [[Baidu](https://pan.baidu.com/s/1JLx6esTx1EUbrXCObqTfsQ) (Code: ojap)]
 
 ## Results
 ![compare1](figs/compare1.png)
